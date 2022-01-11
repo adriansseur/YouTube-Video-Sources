@@ -1,8 +1,8 @@
 import React from "react"
-import data from "./data"
 import Title from "./components/Title"
 import Video from "./components/Video"
 import Sources from "./components/Sources"
+import data from "./data"
 import ytdata from "./ytdata"
 
 export default function App() {
@@ -10,8 +10,10 @@ export default function App() {
     const [claimBoxes, setClaimBoxes] = React.useState(data)
 
     const [ytUrlObj, setYtUrlObj] = React.useState(ytdata[0])
-    const originalUrl = ytdata[0].url
 
+    const originalUrl = ytdata[0].url
+    
+    // Runs when btns get clicked, updates claimBoxes state to register click
     function toggle(id) {
         setClaimBoxes(prevClaimBoxes => {
             return prevClaimBoxes.map((claimBox) => {
@@ -20,7 +22,7 @@ export default function App() {
                 ? 
                 {
                     ...claimBox,
-                    clicked: !claimBox.clicked,
+                    clicked: !claimBox.clicked
                 }
                 : 
                 claimBox
@@ -28,33 +30,36 @@ export default function App() {
             })
         })
 
-        // YT player only responding for 1st button
-        // and only when pressing twice
-        // and only the first time
+    }
+    
+    // If claimBoxes state changes, ytUrlObj state will change too
+    React.useEffect(function() {
         setYtUrlObj(prevYtUrlObj => {
+            let newUrlObj = prevYtUrlObj
             for (let i = 0; i < claimBoxes.length; i++) {
+                console.log(claimBoxes[i].clicked) // console.log
                 if (claimBoxes[i].clicked) {
-                    console.log(`${claimBoxes[i].id} was clicked`)
-                    return (
-                        {
-                            url: `${originalUrl}?start=${claimBoxes[i].start}&end=${claimBoxes[i].start + claimBoxes[i].duration}&autoplay=1`
-                        }
-                    )
+                    console.log(`${claimBoxes[i].id} was clicked`) // console.log
+                    newUrlObj = {
+                        url: `${originalUrl}?start=${claimBoxes[i].start}&end=${claimBoxes[i].start + claimBoxes[i].duration}&autoplay=1`
+                    }
+                    
                 } else {
-                    console.log("clicked not found")
-                    return prevYtUrlObj
+                    console.log("clicked not found") // console.log
                 }
             }
+            return newUrlObj
         })
-    }
-    console.log(ytUrlObj)
+    }, [claimBoxes])
+    
+    console.log(ytUrlObj) // console.log
 
     const claimBoxElements = claimBoxes.map(claimBox => (
         <Sources 
             key={claimBox.id}
             id={claimBox.id}
             clicked={claimBox.clicked}
-            toggle={() => toggle(claimBox.id)}
+            toggle={() => {toggle(claimBox.id)}}
             claim={claimBox.claim}
         />
     ))

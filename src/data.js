@@ -23,6 +23,6 @@ export default [
         author: "OWID",
         link: "https://ourworldindata.org/emissions-drivers",
         start: 83,
-        duration: 26
+        duration: 27
     }
 ]
