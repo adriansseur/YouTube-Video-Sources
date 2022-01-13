@@ -1,6 +1,32 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    background: white;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.video-container {
+    border: 1px solid fuchsia;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 170px;
+}
+
 .sources-container {
     border: 1px solid red;
     padding: 1em;
+    margin-top: 487px;
 }
 
 .claim-container {
