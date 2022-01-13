@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.1f14785f.css","mappings":"AAAA,mBACI,oBACJ,CAEA,aAEI,aAAc,CADd,YAEJ","sources":["style/sources.css"],"sourcesContent":[".sources-container {\n    border: 1px solid red;\n}\n\n.sources-btn {\n    padding: 2rem;\n    font-size: 2em;\n}"],"names":[],"sourceRoot":""}
