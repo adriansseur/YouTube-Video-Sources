@@ -2,12 +2,12 @@ import React from "react"
 import Title from "./components/Title"
 import Video from "./components/Video"
 import Sources from "./components/Sources"
-import data from "./data"
-import ytdata from "./ytdata"
+import claims from "./data/claims"
+import ytdata from "./data/ytdata"
 
 export default function App() {
 
-    const [claimBoxes, setClaimBoxes] = React.useState(data)
+    const [claimBoxes, setClaimBoxes] = React.useState(claims)
 
     const [ytUrlObj, setYtUrlObj] = React.useState(ytdata[0])
 
@@ -41,7 +41,7 @@ export default function App() {
                 if (claimBoxes[i].clicked) {
                     console.log(`${claimBoxes[i].id} was clicked`) // console.log
                     newUrlObj = {
-                        url: `${originalUrl}?start=${claimBoxes[i].start}&end=${claimBoxes[i].start + claimBoxes[i].duration}&autoplay=1`
+                        url: `${originalUrl}?start=${claimBoxes[i].start}&end=${claimBoxes[i].end}&autoplay=1`
                     }
                     
                 } else {

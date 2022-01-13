@@ -71,8 +71,8 @@ export default [
     {
         id: 3,
         clicked: false,
-        start: 109,
-        end: 123,
+        start: 110,
+        end: 124,
         claim: "While most people know about the heavy impact of energy, beef, cars and planes, many major polluters are barely ever talked about. The emissions leaking out of landfills are as significant as the emissions of all the jets in the air. ",
         evidence: [
             {
@@ -117,7 +117,7 @@ export default [
         id: 4,
         clicked: false,
         start: 124,
-        end: 128,
+        end: 129,
         claim: "More CO2 is released to run our homes than from all cars combined.",
         evidence: [
             {
@@ -145,7 +145,7 @@ export default [
         id: 5,
         clicked: false,
         start: 129,
-        end: 146,
+        end: 147,
         claim: "And the emissions produced when making a new car is equivalent to building just two metres of road. So it is nice to switch to electric cars but they won’t solve anything if we keep building roads the same way. Fixing one small part of the industrial system is not enough. ",
         evidence: [
             {
