@@ -59,8 +59,9 @@ export default function App() {
             key={claimBox.id}
             id={claimBox.id}
             clicked={claimBox.clicked}
-            toggle={() => {toggle(claimBox.id)}}
             claim={claimBox.claim}
+            evidence={claimBox.evidence}
+            toggle={() => {toggle(claimBox.id)}}
         />
     ))
 

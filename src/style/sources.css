@@ -1,8 +1,30 @@
 .sources-container {
     border: 1px solid red;
+    padding: 1em;
 }
 
-.sources-btn {
-    padding: 2rem;
-    font-size: 2em;
+.claim-container {
+    margin-bottom: 4em;
+    border: 1px solid blue;
+}
+
+.commentary {
+    background: rgb(255, 180, 180);
+}
+
+.source {
+    background: lightyellow;
+}
+
+.link {
+    background: lightgreen;
+}
+
+.quote {
+    background: lightblue;
+}
+
+.error {
+    background: red;
+    color: yellow;
 }
