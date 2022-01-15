@@ -48,7 +48,7 @@ body {
 
 .sources-container {
     padding: 0 3em;
-    height: 66vh;
+    height: 60vh;
     overflow-y: scroll;
     border-radius: 60px;
 }
@@ -69,31 +69,57 @@ body {
     margin: 0;
 }
 
+.claim {
+    font-weight: 400;
+}
+
 .commentary {
-    background: rgb(255, 180, 180);
+    /* background: rgb(255, 180, 180); */
+    padding: 0.5em 0;
 }
 
 .source {
-    background: lightyellow;
+    border: 3px solid lightyellow;
     /* position: relative;
     top: 27px; */
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+    padding: 0 1em;
 }
 
 .link {
-    background: lightgreen;
+    border: 3px solid lightgreen;
     /* width: 50%;
     position: relative;
     left: 50%;
     top: 9px; */
+    width: 25%;
+    margin-left: auto;
+    text-align: right;
+    padding: 0 1em;
 }
 
 .quote {
-    background: lightblue;
+    background: white;
+    border-radius: 6px;
     /* position: relative;
     bottom: 27px; */
+    text-align: center;
+    margin: auto;
+    padding: 1em;
 }
 
 .error {
     background: red;
     color: yellow;
+}
+
+.quotation-marks {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.quote-img {
+    width: 100%;
 }

@@ -68,7 +68,7 @@ export default function App() {
     return (
         <>
             <Title />
-            <Video 
+            <Video
                 url={ytUrlObj.url}
             />
             <div className="sources-container">

@@ -1,5 +1,4 @@
 import React from "react"
-import "../style/sources.css"
 
 export default function Sources(props) {
 
@@ -14,7 +13,17 @@ export default function Sources(props) {
         } else if (objKey === "link") {
             evidenceElement = <p className="link">Link</p> // make link button
         } else if (objKey === "quote") {
-            evidenceElement = <p className="quote">Quote</p> //handle imgs
+            // check if quote is image
+            if (obj.quote.startsWith("/images")) {
+                evidenceElement = 
+                <div className="quote">
+                    <img className="quote-img" src={process.env.PUBLIC_URL + obj.quote} alt="...Image Detected" />
+                </div>
+            } else {
+                evidenceElement = <p className="quote">
+                    <span className="quotation-marks">" </span>{obj.quote}<span className="quotation-marks"> "</span>
+                    </p>
+            }
         } else {
             evidenceElement = <p className="error">Error</p>
         }
@@ -30,7 +39,7 @@ export default function Sources(props) {
 
     return (
         <div className="claim-container">
-            <h3>{props.claim}</h3>
+            <p className="claim">{props.claim}</p>
             <button className="sources-btn" onClick={props.toggle}>Play</button>
             {evidenceElements}
         </div>

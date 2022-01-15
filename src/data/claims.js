@@ -28,7 +28,7 @@ export default [
                 link: `https://www.ipcc.ch/site/assets/uploads/2018/03/SREX-Chap3_FINAL-1.pdf `
             },
             {
-                quote: `“A changing climate leads to changes in the frequency, intensity, spatial extent, duration, and timing of weather and climate extremes, and can result in unprecedented extremes.”`
+                quote: `A changing climate leads to changes in the frequency, intensity, spatial extent, duration, and timing of weather and climate extremes, and can result in unprecedented extremes.`
             },
             {
                 commentary: `These come in addition to more gradual changes, such as rising sea levels and an increase in average global temperature. Low-lying coastal regions are affected the most, as are places that already experience very high or very low temperatures.`
@@ -52,7 +52,7 @@ export default [
                 link: `https://ourworldindata.org/co2-emissions#per-capita-co2-emissions `,
             },
             {
-                quote: `../images/co-emissions-per-capita.png`
+                quote: `/images/co-emissions-per-capita.png`
             },
             {
                 commentary: `There is a strong link between emissions and standards of living. OWID has a full article explaining what drives the emissions, what is the contribution of different factors and how it is all calculated. There could be other methods but Kaya Identity is one of the well-known metrics. According to it, there are four factors driving emissions: population, income, energy intensity and carbon intensity. Following article explains the breakdown and contribution of each factor in detail. However, one factor that is useful to look at here is the GDP per capita for different countries and how it is related to their emissions. `
@@ -64,7 +64,7 @@ export default [
                 link: `https://ourworldindata.org/emissions-drivers`
             },
             {
-                quote: `../images/co2-emissions-vs-gdp.png`
+                quote: `/images/co2-emissions-vs-gdp.png`
             }
         ]
     },
@@ -85,7 +85,7 @@ export default [
                 link: `https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from `,
             },
             {
-                quote: `../images/Emissions-by-sector-–-pie-charts.png`
+                quote: `/images/Emissions-by-sector-–-pie-charts.png`
             },
             {
                 commentary: `One reason why greenhouse gas emissions from landfills are so significant is because half of their output is in the form of methane, which is much more potent than carbon dioxide. However, methane has a half life of about a decade whereas CO2 can stay up in the atmosphere and accumulate over centuries. `
@@ -97,7 +97,7 @@ export default [
                 link: `https://www.epa.gov/lmop/basic-information-about-landfill-gas `
             },
             {
-                quote: `“Landfill gas (LFG) is a natural byproduct of the decomposition of organic material in landfills. LFG is composed of roughly 50 percent methane (the primary component of natural gas), 50 percent carbon dioxide (CO2) and a small amount of non-methane organic compounds. Methane is a potent greenhouse gas 28 to 36 times more effective than CO2 at trapping heat in the atmosphere over a 100-year period”`
+                quote: `Landfill gas (LFG) is a natural byproduct of the decomposition of organic material in landfills. LFG is composed of roughly 50 percent methane (the primary component of natural gas), 50 percent carbon dioxide (CO2) and a small amount of non-methane organic compounds. Methane is a potent greenhouse gas 28 to 36 times more effective than CO2 at trapping heat in the atmosphere over a 100-year period`
             },
             {
                 commentary: `A 2018 study presents a new way to use GWP, short for global warming potential, of various greenhouse gases to account for different lifetimes and therefore impact on warming. `
@@ -109,7 +109,7 @@ export default [
                 link: `https://www.carbonbrief.org/guest-post-a-new-way-to-assess-global-warming-potential-of-short-lived-pollutants`
             },
             {
-                quote: `“Greenhouse gas emissions are commonly presented in units of billion tonnes of carbon dioxide equivalent (Gt CO2e). The de facto way of converting non-CO2 emissions to CO2e is to multiply the gas by its GWP100 (global warming potential over 100 years). The value of GWP100 for methane (CH4) from the last IPCC assessment report is 28. This means that methane has 28 times as much “global warming potential” as CO2, so 1Gt CH4 equates to 28 GtCO2e. This masks the fact that 1 GtCH4 has a strong warming influence when it is first emitted, which then diminishes rapidly over a few decades. This is because chemical reactions cause it to be removed from the atmosphere, with a half life of about a decade. So, at the end of that 100 years, that methane is no longer causing strong warming, because it has almost all been destroyed.”`
+                quote: `Greenhouse gas emissions are commonly presented in units of billion tonnes of carbon dioxide equivalent (Gt CO2e). The de facto way of converting non-CO2 emissions to CO2e is to multiply the gas by its GWP100 (global warming potential over 100 years). The value of GWP100 for methane (CH4) from the last IPCC assessment report is 28. This means that methane has 28 times as much “global warming potential” as CO2, so 1Gt CH4 equates to 28 GtCO2e. This masks the fact that 1 GtCH4 has a strong warming influence when it is first emitted, which then diminishes rapidly over a few decades. This is because chemical reactions cause it to be removed from the atmosphere, with a half life of about a decade. So, at the end of that 100 years, that methane is no longer causing strong warming, because it has almost all been destroyed.`
             }
         ]
     },
@@ -137,7 +137,7 @@ export default [
                 link: `https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from`,
             },
             {
-                quote: `../images/Emissions-by-sector-–-pie-charts.png`
+                quote: `/images/Emissions-by-sector-–-pie-charts.png`
             }
         ]
     },
@@ -158,10 +158,10 @@ export default [
                 link: `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4809014/`,
             },
             {
-                quote: `“Asphalt pavement construction has significant environmental impacts. Its GHG emissions are evaluated and calculated for a case study in China, including raw materials production, mixing, transportation, laying, compacting and curing phase. The total CO2e emission of the 20 km long asphalt pavement construction project is 52,264,916.06 kg.”`
+                quote: `Asphalt pavement construction has significant environmental impacts. Its GHG emissions are evaluated and calculated for a case study in China, including raw materials production, mixing, transportation, laying, compacting and curing phase. The total CO2e emission of the 20 km long asphalt pavement construction project is 52,264,916.06 kg.`
             },
             {
-                quote: `“The case study is carried out on a typical four lane asphalt pavement of 20 km in length. The depth of the pavement structure is 72 cm. The width of the pavement is 28 m. The lane width is 3.75 m each. The widths of the hard shoulder and verge are 3.5 m and 0.75 m, respectively. At present, a semi-rigid base, which is usually produced from cement stabilized aggregate or gravel, is commonly used in China. The pavement structure, which consists of a cement stabilized aggregate base and an asphalt mixture surface is shown in Figure 3. The mixing plant is set up temporarily during the project. The average distance between the mixing plant and the construction site is 10 km.”`
+                quote: `The case study is carried out on a typical four lane asphalt pavement of 20 km in length. The depth of the pavement structure is 72 cm. The width of the pavement is 28 m. The lane width is 3.75 m each. The widths of the hard shoulder and verge are 3.5 m and 0.75 m, respectively. At present, a semi-rigid base, which is usually produced from cement stabilized aggregate or gravel, is commonly used in China. The pavement structure, which consists of a cement stabilized aggregate base and an asphalt mixture surface is shown in Figure 3. The mixing plant is set up temporarily during the project. The average distance between the mixing plant and the construction site is 10 km.`
             },
             {
                 commentary: `This was from a case-study in China so one might think that the values could be different in other countries and for other types of roads. There are many different parameters contributing to emissions from road construction from the type of materials used to distance from the material production site to road-construction site. So one would find values on a wide range. In the following there are a few examples to give a general idea on the spectrum of emissions.
@@ -174,13 +174,13 @@ export default [
                 link: `https://www.irbnet.de/daten/iconda/CIB17277.pdf `
             },
             {
-                quote: `../images/alternative-pavement-designs-case-studies.png`
+                quote: `/images/alternative-pavement-designs-case-studies.png`
             },
             {
                 commentary: `Following chart from the study shows that CO2eq emissions for the five cases are between 14.6 and 26.3 tons per kilometer, per year, over their useful life of 10 to 25 years. The roads in all case studies have two lanes and are 7.3 meters wide. When we match that to an 8 lane road for the sake of comparison with previous figures, and add up their emissions from their entire lifetime, we get 0.8 to 2.4 tons of CO2eq per meter length.  `
             },
             {
-                quote: `../images/total-annual-kg-co2.png`
+                quote: `/images/total-annual-kg-co2.png`
             },
             {
                 commentary: `Another case study in Costa Rica, for instance, calculates a carbon footprint of 65.8 kg of CO2eq per km of road:`
@@ -192,7 +192,7 @@ export default [
                 link: `https://www.researchgate.net/publication/332492697_Carbon_Footprint_Estimation_in_Road_Construction_La_Abundancia-Florencia_Case_Study`
             },
             {
-                quote: `"The production and construction stages of the HMA layers generated a carbon footprint of 65.781 kg of CO2e per lane-km. The production stage of polymer-modified HMA layer presented a contribution of 29.596 kg of CO2e per lane-km, while the unmodified HMA layer contributed 34.851 kg of CO2e per lane-km.The unmodified HMA layer was thicker and used more asphalt content."`
+                quote: `The production and construction stages of the HMA layers generated a carbon footprint of 65.781 kg of CO2e per lane-km. The production stage of polymer-modified HMA layer presented a contribution of 29.596 kg of CO2e per lane-km, while the unmodified HMA layer contributed 34.851 kg of CO2e per lane-km.The unmodified HMA layer was thicker and used more asphalt content.`
             },
             {
                 commentary: `Car manufacture also requires many energy-intensive materials, such as steel, with corresponding high greenhouse gas emissions. They vary in size and complexity, but we can estimate the range of CO2 required to produce an average car to be about 6 tons.`
@@ -204,7 +204,7 @@ export default [
                 link: `https://www.iea.org/data-and-statistics/charts/comparative-life-cycle-greenhouse-gas-emissions-of-a-mid-size-bev-and-ice-vehicle `
             },
             {
-                quote: `../images/comparative-life-cycle-greenhouse-gas-emissions-of-a-mid-size-bev-and-ice-vehicle.png`
+                quote: `/images/comparative-life-cycle-greenhouse-gas-emissions-of-a-mid-size-bev-and-ice-vehicle.png`
             },
             {
                 commentary: `This document contains a comparison for the CO2 emissions involved in producing different types of cars. The standard gasoline vehicle emits about 5,600 kg of CO2. Meanwhile producing an electric vehicle causes even higher emissions.`
@@ -216,7 +216,7 @@ export default [
                 link: `https://www.zemo.org.uk/assets/workingdocuments/MC-P-11-15a%20Lifecycle%20emissions%20report.pdf `
             },
             {
-                quote: `../images/vehicle-whole-analysis.png`
+                quote: `/images/vehicle-whole-analysis.png`
             },
             {
                 commentary: `It is an annex to this full report:`
