@@ -121,13 +121,36 @@ export default [
         claim: "More CO2 is released to run our homes than from all cars combined.",
         evidence: [
             {
-                commentary: `According to the OWID chart below:
-                Road transport has caused 11.9% of all greenhouse emissions in 2016, 60% of which was due to the passenger travel with cars, motorcycles and buses whereas the rest was road freight: 
-                49.4 billion tonnes CO2 eq x 11.9% = 5.88 billion tonnes CO2 eq. 
+                commentary: `According to the OWID chart below:`
+            },
+            {
+                commentary: `
+                Road transport has caused 11.9% of all greenhouse emissions in 2016, 60% of which was due to the passenger travel with cars, motorcycles and buses whereas the rest was road freight:`
+            },
+
+            {
+                commentary: ` 
+                49.4 billion tonnes CO2 eq x 11.9% = 5.88 billion tonnes CO2 eq.`
+            },
+
+            {
+                commentary: ` 
                 60% passenger travel = 3.53 billion tonnes CO2 eq
-                40% road freight = 2.35 billion tonnes CO2 eq
-                Residential buildings on the other hand accounted for 10.9% with all energy going into generation of electricity for lighting, appliances, cooking etc. and heating at home:
-                Residential Buildings 49.4 billion tonnes CO2 eq x 10.9% = 5.39 billion tonnes CO2 eq
+                40% road freight = 2.35 billion tonnes CO2 eq`
+            },
+
+            {
+                commentary: `
+                Residential buildings on the other hand accounted for 10.9% with all energy going into generation of electricity for lighting, appliances, cooking etc. and heating at home:`
+            },
+
+            {
+                commentary: `
+                Residential Buildings 49.4 billion tonnes CO2 eq x 10.9% = 5.39 billion tonnes CO2 eq`
+            },
+
+            {
+                commentary: `
                 Therefore, residential buildings caused more emissions compared to passenger travel. `
             },
             {
@@ -229,4 +252,37 @@ export default [
             }
         ]
     },
+    {
+        id: 6,
+        clicked: false,
+        start: 172,
+        end: 192,
+        claim: `There is a clear connection between the prosperity of a nation and its carbon emissions. In other words, richer people tend to cause more emissions. So the key to fixing climate change is simply for the world’s richest to cut back on their extravagant lifestyles right? While this would help, it wouldn’t make the problem go away.`,
+        evidence: [
+            {
+                commentary: `The World Bank ranks countries based on criteria like Gross National Income per capita. There are 4 groups: High-, upper-middle-, lower-middle and low income. The following map shows the global distribution of income groups by country.`
+            },
+            {
+                quote: `/images/world-bank-income-groups.png`
+            },
+            {
+                commentary: `Based on the CO2 emissions data from 2019, distribution of share of the global production- and consumption-based emissions and global population among these four income groups is as follows:`
+            },
+            {
+                quote: `/images/emissions-four-groups.png`
+            },
+            {
+                commentary: `Courtesy of Hannah Ritche, OWID`
+            },
+            {
+                commentary: `Even though CO2 emissions are mostly measured on the basis of production, consumption based emissions better reflect the life-style choices of individuals. Since consumption-based emissions also account for trade, they show how much of the production-based emissions are actually due to products exported to other countries. Therefore, if a country has a large volume of exports and therefore larger emissions ingrained in goods exported than imported, it would be a net exporter of emissions. One drawback about the consumption-based emissions is that data is not available for all countries since this requires a granular recording of traded goods and not all countries have the records. Therefore, this creates a gap in the data which is why we used the production-based emissions instead.`
+            },
+            {
+                commentary: `Using the same data from the table above, we grouped the high- & upper-middle income countries and low- & lower middle income countries together. Even though the two groups have similar shares of global population, there is a stark difference between their emissions. `
+            },
+            {
+                quote: `/images/emissions-four-groups-wealth.png`
+            }
+        ]
+    }
 ]
