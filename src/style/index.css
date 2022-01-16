@@ -2,7 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .title-container,
@@ -23,21 +23,28 @@ body {
     margin: 0 3rem;
     margin-right: 4em;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title {
     margin: 0;
     text-align: center;
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: 0.43px;
 }
 
 .authors {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .authors p {
     margin: 0;
+    font-size: 12px;
 }
 
 .video-container {
@@ -58,7 +65,7 @@ body {
     padding: 1rem;
 }
 
-.sources-btn {
+.play-btn {
     background: red;
     color: white;
     border: none;
@@ -66,28 +73,31 @@ body {
     padding: 0.5rem 1.25rem;
     font-size: 16px;
     border-radius: 20px;
+    margin-bottom: 1rem;
 }
 
-.sources-btn:hover {
+.play-btn:hover {
     cursor: pointer;
     background: white;
     color: red;
 }
 
-.sources-btn:active {
+.play-btn:active {
    color: white;
    background: darkred; 
 }
 
+.claim,
 .commentary,
 .source,
 .link,
 .quote {
     margin: 0;
+    line-height: 1.4;
 }
 
 .claim {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .commentary {
@@ -119,9 +129,10 @@ body {
     padding: 0.5rem 1.25rem;
     text-decoration: none;
     color: white;
-    font-weight: 400;
-    border-radius: 3px;
+    font-weight: 500;
     background: rgb(64, 106, 234);
+    font-size: 16px;
+    border-radius: 20px;
 }
 
 /* .link:visited {
@@ -153,7 +164,7 @@ body {
 
 .quotation-marks {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .quote-img {
