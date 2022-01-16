@@ -7,11 +7,11 @@ export default function Sources(props) {
         const objKey = Object.keys(obj)[0]
         let evidenceElement
         if (objKey === "commentary") {
-            evidenceElement = <p className="commentary">Commentary</p>
+            evidenceElement = <p className="commentary">{obj.commentary}</p>
         } else if (objKey === "source") {
-            evidenceElement = <p className="source">Source</p>
+            evidenceElement = <p className="source">{obj.source}</p>
         } else if (objKey === "link") {
-            evidenceElement = <p className="link">Link</p> // make link button
+            evidenceElement = <a className="link" href={obj.link} target="_blank">Read more</a> // make link button
         } else if (objKey === "quote") {
             // check if quote is image
             if (obj.quote.startsWith("/images")) {
@@ -39,8 +39,8 @@ export default function Sources(props) {
 
     return (
         <div className="claim-container">
-            <p className="claim">{props.claim}</p>
             <button className="sources-btn" onClick={props.toggle}>Play</button>
+            <p className="claim">{props.claim}</p>
             {evidenceElements}
         </div>
     )
