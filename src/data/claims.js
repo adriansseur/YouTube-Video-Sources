@@ -284,5 +284,116 @@ export default [
                 quote: `/images/emissions-four-groups-wealth.png`
             }
         ]
+    },
+    {
+        id: 7,
+        clicked: false,
+        start: 192,
+        end: 214,
+        claim: `This is because 63% of global emissions come from low to middle income countries. Countries where most people are not living extravagantly but are trying to escape poverty at worst, and achieve a comfortable lifestyle at best. The unfortunate reality is that, currently, escaping poverty and becoming middle class creates unavoidable emissions.`,
+        evidence: [
+            {
+                commentary: `Using the same data above, When the production based emissions are summed up for Low-, lower-middle and upper-middle income countries (0.53%, 13.5%, 48.9%, respectively), we end up with 63% of all CO2 emissions whereas they account for 84% of the global population. Following map shows the partition we used in the calculations, high-income vs three other groups:`
+            },
+            {
+                quote: `/images/world-bank-income-groups2.png`
+            },
+            {
+                commentary: `Courtesy of Hannah Ritche, OWID`
+            }
+        ]
+    },
+    {
+        id: 8,
+        clicked: false,
+        start: 214,
+        end: 250,
+        claim: `So asking developing countries to cut emissions just looks like an attempt to keep them down. It is very hard to argue that a region should protect their primeval forests and spend money on solar panels instead of burning wood, when it can’t meet basic needs for significant parts of its population. So, cutting back is not a popular demand, especially if the countries making these demands got rich by causing environmental damage in the past. So for billions of people, more emissions are a good thing personally. When we forget about this, we tend to propose unworkable solutions.`,
+        evidence: [
+            {
+                commentary: `This is a complex topict that can’t be covered in a couple sentences or even with a couple sources. This is why we made an entire video about it. You can watch the video here. `
+            },
+            {
+                source: `Who Is Responsible For Climate Change? – Who Needs To Fix It?, Kurzgesagt, 2020`
+            },
+            {
+                link: `https://www.youtube.com/watch?v=ipVxxxqwBQw `
+            },
+            {
+                commentary: `If you would like to get even more context, have a look at the sources for this video as well:`
+            },
+            {
+                link: `https://sites.google.com/view/sourcesclimateresponsibility/`
+            }
+        ]
+    },
+    {
+        id: 9,
+        clicked: false,
+        start: 250,
+        end: 257,
+        claim: `Take concrete. 8% of CO2 emissions are released by the concrete manufacturing industry. `,
+        evidence: [
+            {
+                commentary: `There are mainly two ways that concrete causes CO2 emissions: CO2 that is inherent to the basic reaction producing CaO and CO2 from CaCO3, which is part of the main component of cement. This first bit accounts for around 5%. Second is the industrial emissions caused by the large amounts of heat required to process the raw ingredients which adds up another 3% on top. `
+            },
+            {
+                source: `Global CO2 emissions from cement production, Robbie M. Andrew, 2018`
+            },
+            {
+                link: `https://essd.copernicus.org/articles/10/195/2018/essd-10-195-2018.pdf `
+            },
+            {
+                quote: `There are two aspects of cement production that result in emissions of CO2. The first is the chemical reaction involved in the production of the main component of cement, clinker, as carbonates (largely limestone, CaCO3) are decomposed into oxides (largely lime, CaO) and CO2 by the addition of heat. Stoichiometry directly indicates how much CO2 is released for a given amount of CaO produced. Recent estimates are that these so-called “process” emissions contribute about 5 % of total anthropogenic CO2 emissions excluding land use change (Boden et al., 2017). The second source of emissions is the combustion of fossil fuels to generate the significant energy required to heat the raw ingredients to well over 1000 ◦C, and these “energy” emissions, including those from purchased electricity, could add a further 60 % on top of the process emissions (IEA, 2016). Total emissions from the cement industry could therefore contribute as much as 8 % of global CO2 emissions. These process (sometimes called “industry” or “industrial process”) and energy emissions are most often reported separately in global emissions inventories (Le Quéré et al., 2016, 2017; IPCC, 2006).`
+            }
+        ]
+    },
+    {
+        id: 10,
+        clicked: false,
+        start: 257,
+        end: 271,
+        claim: `Ok cool, stop using concrete, right? But right now, concrete is also a cheap and easy way for growing populations in developing countries to build affordable housing. They don’t have much of a choice. And there are many examples like that.`,
+        evidence: [
+            {
+                commentary: `Of the top 15 countries with highest emissions due to cement (the essential ingredient of concrete) worldwide in 2019, only 4 are grouped as high-income based on the WorldBank ranking used above. China is the largest by far, and it uses it to build homes, roads and other infrastructure for its nearly 1.4 billion population. Though there is also an important catch to this: It does not mean that Low-income countries (as per WorldBank classification above) are responsible for the concrete emissions and they should stop building concrete housing. Their overall emissions are still too low to catch up with the few big lower- and upper-middle income countries even if they keep building with concrete, as demonstrated in the following chart: `
+            },
+            {
+                source: `Share of global CO₂ emissions from cement, 2019, OWID`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/share-global-co2-cement`
+            },
+            {
+                quote: `/images/share-global-co2-cement.png`
+            },
+            {
+                commentary: `The following study compares the construction costs for a mass timber building with a concrete option and found that wood costs 6% higher than concrete alternative: `
+            },
+            {
+                source: `Shafayet Ahmed and Ingrid Arocho, Analysis of cost comparison and effects of change orders during construction: Study of a mass timber and a concrete building project, 2021  `
+            },
+            {
+                link: `https://www.researchgate.net/publication/344579866_Analysis_of_cost_comparison_and_effects_of_change_orders_during_construction_Study_of_a_mass_timber_and_a_concrete_building_project`
+            },
+            {
+                quote: `This study centers on assessing the cost of a mass timber high-rise building project and compare the construction cost with the modeled cost of the same building designed by concrete option. Outcomes of cost study suggest that the construction cost of mass timber building is 6.43% higher than the modeled concrete option, which supports the findings of previous studies where timber construction costs were ranged 2–6% higher than the traditional concrete and steel construction.`
+            },
+            {
+                quote: `/images/subtotal-estimate-cement-wood.png`
+            },
+            {
+                commentary: `Building practices, however, can differ based on local conditions and specific needs of the people in the given region. People can build housing out of a lot of different materials and concrete might not always be the best or only choice. Following study, for instance, demonstrates a specific case for Haiti where the low quality concrete buildings proved to be unreliable in the face of frequent earthquakes and natural disasters: `
+            },
+            {
+                source: `H. McWilliams, C.T. Griffin. A critical assessment of concrete and masonry structures for reconstruction after seismic events in developing countries, 2013`
+            },
+            {
+                link: `http://www.web.pdx.edu/~cgriffin/research/hmcwilliams_seismic.pdf`
+            },
+            {
+                quote: `Much of the research and proposals made for the better rebuilding of Haiti, primarily focuses on the creation, education, and enforcement of “better” construction methods, life safety standards and codes imported from developed countries. These fail to address the other, perhaps more important, social and economic issues that led to substandard structures in the first place. Masonry and concrete buildings are typical throughout Haiti, and are continuing to be proposed for reconstruction. Research has shown that the structures of these concrete buildings are both unreliable and ineffective when natural disasters occur, due to compromised construction in the quality or quantity of materials.`
+            }
+        ]
     }
 ]
