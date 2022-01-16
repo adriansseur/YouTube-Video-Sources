@@ -395,5 +395,227 @@ export default [
                 quote: `Much of the research and proposals made for the better rebuilding of Haiti, primarily focuses on the creation, education, and enforcement of “better” construction methods, life safety standards and codes imported from developed countries. These fail to address the other, perhaps more important, social and economic issues that led to substandard structures in the first place. Masonry and concrete buildings are typical throughout Haiti, and are continuing to be proposed for reconstruction. Research has shown that the structures of these concrete buildings are both unreliable and ineffective when natural disasters occur, due to compromised construction in the quality or quantity of materials.`
             }
         ]
+    },
+    {
+        id: 11,
+        clicked: false,
+        start: 271,
+        end: 289,
+        claim: `Even rich countries aren’t immune from disagreeing about rapid climate change solutions. Banning coal, gas and oil from energy is slowed down by heated discussions about what should replace them. Citizens can be strictly against nuclear power but also oppose wind or solar infrastructure in their backyards. `,
+        evidence: [
+            {
+                commentary: `Most people agree that something should be done about climate change. They understand that we need to build fields of solar panels, huge wind turbines and even nuclear reactors to reduce our carbon emissions. Except, few people want to live near these installations or even have to look at them. They worry about how it would affect them personally, such as a loss in property value or some discomfort, and it takes precedence over vague benefits to humanity.`
+            },
+            {
+                commentary: `‘Not in My Backyard’ (NIMBY) is used to describe this sort of opposition. People want to do something about a problem but reject a solution when its impact becomes too personal.`
+            },
+            {
+                source: `Not in My Backyard Phenomenon, Encyclopedia Britannica, retrieved 2021`
+            },
+            {
+                link: `https://www.britannica.com/topic/Not-in-My-Backyard-Phenomenon `
+            },
+            {
+                quote: `The phrase “not in my backyard” has two distinct usages and categories of users. In some circumstances, it connotes the unwillingness of individuals to accept the construction of large-scale projects by corporations or governmental entities nearby, which might affect their quality of life and the value of their property. Project proponents (which usually consist of the sponsoring corporation, construction labor unions and contractors, etc.) tend to use the phrase in this manner. The phrase is also used by social service and environmental justice advocates to imply an absence of social conscience expressed by a class-, race-, or disability-based opposition to the location of social-service facilities in neighborhoods.`
+            },
+            {
+                commentary: `There are also critiques of the NIMBY explanation who suggest that the NIMBY concept tends to mask the unmet larger social needs by the proposed projects and simplify otherwise complex reasons why people object to renewables in their neighbourhoods. A recent case study, for instance, suggests that the NIMBY approach fails to see the complicated nature of residents’ motivations and is rather counterproductive. The variables affecting the acceptance of the project were rather lack of developer trust, procedural justice and perceived impacts.`
+            },
+            {
+                source: `George-O’Neil, Community obstacles to large scale solar: NIMBY and renewables, 2021`
+            },
+            {
+                link: `https://link.springer.com/article/10.1007/s13412-020-00644-3`
+            },
+            {
+                quote: `Although the immediate response to opposition of a solar project may seem to fit a “Not in My Back Yard” (NIMBY) profile, this case furthers the discussion regarding the problematic NIMBY concept. The objection to these projects is much more complex than simply not wanting the project in “my backyard.” Labeling those with questions and concerns about the location of a project as NIMBY serves only as a means to dismiss their concerns, and proved divisive and unproductive in this case. As previous research has noted, the NIMBY label often masks larger societal concerns not being addressed by a proposed project (Devine-Wright 2012; Freudenburg and Pastor 1992; Hubbard 2006; Kraft and Clary 1991; Outka 2012; van der Horst 2007; Wolsink 2000, 2006). `
+            }
+        ]
+    },
+    {
+        id: 12,
+        clicked: false,
+        start: 289,
+        end: 315,
+        claim: `In principle all of these issues can be overcome – but there are things we don’t currently know how to overcome. The most problematic one is food. We will soon need to feed 10 billion people, and we don’t know how to do this without emitting greenhouse gases. Because of the nature of modern food production that requires fertilizers or manure, it is impossible to have zero-emissions food. `,
+        evidence: [
+            {
+                commentary: `The world population is very likely going to grow to 10 billion by 2060, and is expected to exceed 11 billion by 2100.`
+            },
+            {
+                source: `World Population Prospects 2019, UN, 2019`
+            },
+            {
+                link: `https://population.un.org/wpp/Graphs/Probabilistic/POP/TOT/900`
+            },
+            {
+                quote: `/images/world-total-population.png`
+            },
+            {
+                commentary: `Our current food production practices take up a quarter of global GHG emissions. And if we persist the same way in the next decades, food emissions are going to use up our carbon budget that is necessary to keep the increase in the global average temperature below 2 deg C by 2100:`
+            },
+            {
+                source: `Food production is responsible for one-quarter of the world’s greenhouse gas emissions,  Hannah Ritchie, 2019`
+            },
+            {
+                link: `https://ourworldindata.org/food-ghg-emissions `
+            },
+            {
+                quote: `Food is responsible for approximately 26% of global GHG emissions.`
+            },
+            {
+                quote: `/images/How-much-of-GHGs-come-from-food.png`
+            },
+            {
+                source: `Emissions from food alone could use up all of our budget for 1.5°C or 2°C – but we have a range of opportunities to avoid this, OWID, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/food-emissions-carbon-budget`
+            },
+            {
+                commentary: `Following OWID chart shows food emissions in comparison to carbon budgets under different scenarios. For instance, if we were to emit in the next decades to the same degree we do currently, food emissions would take up almost all of our carbon budget for keeping the global temperature rise under 2 deg C. `
+            },
+            {
+                quote: `/images/Food-emissions-vs.-temp-limits.png`
+            },
+            {
+                commentary: `The World Resources Institute calculated the emissions for the year 2050, in case there won’t be any changes in our food production system:`
+            },
+            {
+                source: `World Resources Institute, 5 Questions about Agricultural Emissions Answered, 2019`
+            },
+            {
+                link: `https://www.wri.org/insights/5-questions-about-agricultural-emissions-answered`
+            },
+            {
+                quote: `With little to no climate action  in the agriculture sector, greenhouse gas emissions from agricultural production could increase 58% by 2050. WRI research also showed that when factoring in land-use change, agricultural emissions under a business-as-usual scenario could eat up 70% or more of the world's "carbon budget," the amount of emissions the world can release by 2050 while still limiting global temperature rise to 2 degrees C. Under a more ambitious mitigation scenario called RCP2.6, emissions from the agricultural sector will still increase, but only by 6% (compared to 2000).`
+            },
+            {
+                commentary: `The institute also calculated with a more optimistic scenario, in which we will see a reduction of 67% until the year 2050, but still not erase all of the emissions by the food-industry: `
+            },
+            {
+                source: `World Resources Institute, How to Sustainably Feed 10 Billion People by 2050, in 21 Charts, 2018`
+            },
+            {
+                link: `https://www.wri.org/insights/how-sustainably-feed-10-billion-people-2050-21-charts`
+            },
+            {
+                quote: `Feeding 10 billion people sustainably by 2050, then, requires closing three gaps:
+
+                A 56 percent food gap between crop calories produced in 2010 and those needed in 2050 under “business as usual” growth;
+                
+                A 593 million-hectare land gap (an area nearly twice the size of India) between global agricultural land area in 2010 and expected agricultural expansion by 2050; and
+                
+                An 11-gigaton GHG mitigation gap between expected agricultural emissions in 2050 and the target level needed to hold global warming below 2oC (3.6°F), the level necessary for preventing the worst climate impacts.`
+            },
+            {
+                quote: `/images/2050-sustainable-food-future.png`
+            },
+            {
+                commentary: `There are many contributors to food emissions: Enteric fermentation by livestock has the biggest share according to the breakdown of agricultural production emissions in the WRI chart below. However, even if we stopped eating meat, there would still be emissions due to other factors. We would still need fertilizer to grow our crops which also causes emissions. Nearly half of the food that the world’s population consumes is grown thanks to synthetic fertilizers. It takes the form of ammonia produced by the Haber-Bosch process, which is an industrial method that requires a lot of nitrogen, hydrogen and energy. That energy specifically is the cause of a lot of carbon emissions. `
+            },
+            {
+                source: `World Resources Institute, 5 Questions about Agricultural Emissions Answered, 2019`
+            },
+            {
+                link: `https://www.wri.org/insights/5-questions-about-agricultural-emissions-answered`
+            },
+            {
+                quote: `/images/emissions-by-sector.png`
+            },
+            {
+                source: `Fertilizers, OWID, retrieved 2021`
+            },
+            {
+                link: `https://ourworldindata.org/fertilizers`
+            },
+            {
+                quote: `Nitrogen fertilizers only became available following the commercialization of the Haber-Bosch process from 1910 onwards. Since then, Erisman et al. estimate it has supported 42 percent of global births over the past century. This amounts to 44 percent of the global population in 2000 being fed by nitrogen fertilizers, rising to 48 percent in 2008. Here we have extended this estimate to 2015 with the continuation of the assumption that 48 percent of the global population are fed by nitrogen fertilizers. Since the share supported by the process continues to rise, this may in fact be a conservative estimate.`
+            }
+        ]
+    },
+    {
+        id: 13,
+        clicked: false,
+        start: 315,
+        end: 323,
+        claim: `Rice alone emits  so much methane each year that it practically equals the emissions of all the air traffic in the world.`,
+        evidence: [
+            {
+                commentary: `According to the OWID chart, rice cultivation accounted for 1.3% of global greenhouse emissions in 2016, almost on par with aviation which was responsible for 1.9%. `
+            },
+            {
+                commentary: `In fairness, we would like to provide some context here though: The numbers are for all greenhouse gas emissions converted to CO2 equivalents, therefore it is not possible to make a one to one comparison. However, most of the emissions of rice are due to methane and methane emissions from aviation are marginal compared to its CO2 emissions. Also, it is important to note that rice is also a staple food for billions of people and it accounts for ~20% of the world's calorie supply. `
+            },
+            {
+                source: `Emissions by sector, OWID, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from `
+            },
+            {
+                quote: `/images/Emissions-by-sector-–-pie-charts.png`
+            }
+        ]
+    },
+    {
+        id: 14,
+        clicked: false,
+        start: 323,
+        end: 327,
+        claim: `What’s worse is that the foods we like the most emit the most. `,
+        evidence: [
+            {
+                commentary: `We are alluding to meat here, especially beef. Favorite food items vary a lot around the world and beef might not be in the top 5 for everyone. Animal-based food products, however, are used in almost all cuisines around the world and are parts of favorite dishes one way or another around the globe. `
+            },
+            {
+                commentary: `Following chart shows the distribution of greenhouse gas emissions of different food items. `
+            },
+            {
+                source: `Where do the emissions from our food come from?, OWID, 2021.`
+            },
+            {
+                link: `https://ourworldindata.org/environmental-impacts-of-food#where-do-the-emissions-from-our-food-come-from`
+            },
+            {
+                quote: `/images/Environmental-impact-of-food-by-life-cycle-stage.png`
+            }
+        ]
+    },
+    {
+        id: 15,
+        clicked: false,
+        start: 327,
+        end: 338,
+        claim: `57% of food emissions come from animal-based foods, although they make up only 18% of the world’s calories, and 37% of its protein. `,
+        evidence: [
+            {
+                commentary: `Following study is the most extensive meta-analysis conducted so far on the environmental impact of global food production. Authors analyzed data from 570 studies, for 40 different animal- and plant- based food products from 38,000 farms around the world. Their analysis suggests that the total impact of livestock, fish, eggs and dairy adds up to 57% of food emissions including emissions from land-use, feed and supply chain.   `
+            },
+            {
+                commentary: `We thank the author of the study Joseph Poore for helping us with the calculation for the overall emissions of animal-based food products for this sentence.`
+            },
+            {
+                source: `Reducing food’s environmental impacts through producers and consumers, J. Poore and T. Nemecek, 2018`
+            },
+            {
+                link: `https://science.sciencemag.org/content/360/6392/987 `
+            },
+            {
+                quote: `In particular, the impacts of animal products can markedly exceed those of vegetable substitutes (Fig. 1), to such a degree that meat, aquaculture, eggs, and dairy use ~83% of the world’s farmland and contribute 56 to 58% of food’s different emissions, despite providing only 37% of our protein and 18% of our calories.`
+            },
+            {
+                commentary: `Based on the paper above, the following OWID chart presents the distribution of agricultural land vs contribution to calorie and protein supply. They also have a full article and infographics looking into different aspects of the environmental impact of food, from water and land use to carbon print of various food items.`
+            },
+            {
+                source: `OWID, Environmental impacts of food production, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/environmental-impacts-of-food#half-of-the-world-s-habitable-land-is-used-for-agriculture`
+            },
+            {
+                quote: `/images/Global-land-use-graphic.png`
+            }
+        ]
     }
 ]
