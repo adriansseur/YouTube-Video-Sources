@@ -617,5 +617,176 @@ export default [
                 quote: `/images/Global-land-use-graphic.png`
             }
         ]
+    },
+    {
+        id: 16,
+        clicked: false,
+        start: 338,
+        end: 342,
+        claim: `And as people across the world grow richer, they want more meat. `,
+        evidence: [
+            {
+                commentary: `This is a meat consumption per person (in kilograms per year) vs GDP per person (in USD) chart based on global data from 1960 to 2018.`
+            },
+            {
+                quote: `/images/meat-vs-gdp-per-capita.png`
+            },
+            {
+                commentary: `This is the data in table format:`
+            },
+            {
+                quote: `/images/table-format.png`
+            },
+            {
+                commentary: `The figures are derived from the following sources:`
+            },
+            {
+                source: `OWID, Global meat production, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/global-meat-production `
+            },
+            {
+                source: `OWID, GDP per capita, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?country=~OWID_WRL `
+            },
+            {
+                source: `OWID, Population, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/population?time=1947..2019&country=~OWID_WRL `
+            }
+        ]
+    },
+    {
+        id: 17,
+        clicked: false,
+        start: 342,
+        end: 361,
+        claim: `Traditional diets in most cultures were primarily plant based with a little meat on top. But with the rise of industrial style meat production and factory farming, meat has become a staple food; a regular indulgence in developed countries and a symbol of status and wealth in developing countries. `,
+        evidence: [
+            {
+                commentary: `Following chart shows the change of meat consumption in the last 50 years. `
+            },
+            {
+                source: `OWID, Daily meat consumption per person, 1961 to 2013`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/daily-meat-consumption-per-person?tab=chart&country=Africa~Oceania~Europe~Asia~Northern+America~South+America`
+            },
+            {
+                quote: `/images/daily-meat-consumption-per-person.png`
+            }
+        ]
+    },
+    {
+        id: 18,
+        clicked: false,
+        start: 361,
+        end: 381,
+        claim: `Today about 40 percent of the world’s habitable land is used for meat production in some form or another, the size of North and South America combined. This is land on which we could otherwise allow native ecosystems to regrow, like forests in the Amazon, and suck carbon out of the atmosphere, but instead most of it is used to feed animals.`,
+        evidence: [
+            {
+                commentary: `Half of the world’s habitable land is dedicated to agriculture. 77% of that figure is spent raising livestock, grazing or growing feed for animals. That means 38.5% of habitable land is meant for meat, which we have rounded up to 40%.`
+            },
+            {
+                source: `OWID, Land Use, 2019`
+            },
+            {
+                link: `https://ourworldindata.org/land-use `
+            },
+            {
+                quote: `Agriculture is a major use of land. Half of the world’s habitable land is used for agriculture. The extensive land use has a major impact on the earth’s environment as it reduces wilderness and threatens biodiversity.`
+            },
+            {
+                quote: `/images/Global-land-use-graphic.png`
+            },
+            {
+                source: `OWID, How the world’s land is used: total area sizes by type of use & cover`
+            },
+            {
+                link: `https://ourworldindata.org/land-use#how-the-world-s-land-is-used-total-area-sizes-by-type-of-use-cover`
+            },
+            {
+                quote: `/images/World-Map-by-Land-Use-01.png`
+            }
+        ]
+    },
+    {
+        id: 19,
+        clicked: false,
+        start: 381,
+        end: 389,
+        claim: `The available solutions are uniquely able to make everybody on the political spectrum, rich or poor, unhappy. `,
+        evidence: [
+            {
+                commentary: `This report gives a good overview over food solutions to decrease emissions: `
+            },
+            {
+                source: `Ranganathan et al., How to Sustainably Feed 10 Billion People by 2050, in 21 Charts, WRI, 2018. `
+            },
+            {
+                link: `https://www.wri.org/insights/how-sustainably-feed-10-billion-people-2050-21-charts`
+            },
+            {
+                commentary: `The major solutions for reducing the CO2 impact of food production are often unpopular, such as genetic engineering and a ‘CO2 tax’ added to meat.`
+            },
+            {
+                commentary: `Genetic engineering has created crops that are in widespread use today. They have desirable properties such as increased yields, reduced need for pesticides or improved vitamin content.`
+            },
+            {
+                source: `Impact of genetically engineered maize on agronomic, environmental and toxicological traits: a meta-analysis of 21 years of field data, Elisa Pellegrino et al., 2018`
+            },
+            {
+                link: `https://www.nature.com/articles/s41598-018-21284-2 `
+            },
+            {
+                quote: `In our study we found that yield increase of GE maize varied in relation to the type of hybrid, ranging from 5.6 to 24.5% in double and quadruple stacked hybrids, respectively. Quadruple stacked hybrids provided higher grain yields.`
+            },
+            {
+                source: `Potential of golden potatoes to improve vitamin A and vitamin E status in developing countries, Chureeporn Chitchumroonchokchai et al., 2017`
+            },
+            {
+                link: `https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187102`
+            },
+            {
+                quote: `These results suggest that a 150 g serving of boiled golden potatoes has the potential to contribute 42% and 23% of the daily requirement of retinol activity equivalents (RAE), as well as 34 and 17% of the daily vitamin E requirement for children and women of reproductive age, respectively.`
+            },
+            {
+                commentary: `But GMO crops are often seen as very controversial and don’t have a high acceptance among people. `
+            },
+            {
+                source: `Pew research Center, About half of U.S. adults are wary of health effects of genetically modified foods, but many also see advantages, 2020`
+            },
+            {
+                link: `https://www.pewresearch.org/fact-tank/2020/03/18/about-half-of-u-s-adults-are-wary-of-health-effects-of-genetically-modified-foods-but-many-also-see-advantages/ `
+            },
+            {
+                quote: `About half of U.S. adults (51%) think GMOs are worse for people’s health than foods with no genetically modified ingredients, while 41% say GM foods have a neutral effect on health. Just 7% say they are better for health than other foods.`
+            },
+            {
+                source: `Mihael Cristin Ichim, The more favorable attitude of the citizens toward GMOs supports a new regulatory framework in the European Union, 2020`
+            },
+            {
+                link: `https://www.tandfonline.com/doi/full/10.1080/21645698.2020.1795525`
+            },
+            {
+                quote: `The percentage of EU citizens concerned about the presence of GMOs in the environment has decreased from 30% (in 2002) to 19% (in 2011), while the level of concern about the use of GM ingredients in food or drinks has decreased from 63% (in 2005) to 27% (in 2019). The steadily increasing acceptance of the EU citizens of GMOs in the environment and food, as it was recorded by Eurobarometers, should additionally ease the way and support a positive change of the legal framework that regulates the GM crops’ testing and commercial cultivation in the EU.`
+            },
+            {
+                commentary: `One of the reasons that the agricultural sector continues to be so environmentally damaging is that it manages to hide the cost of its devastation from the products you buy. However, if there was a cost assigned to that damage, the price of meat and dairy increases dramatically. `
+            },
+            {
+                source: `Calculation of external climate costs for food highlights inadequate pricing of animal products, Maximilian Pieper et al., 2020`
+            },
+            {
+                link: `https://www.nature.com/articles/s41467-020-19474-6 `
+            },
+            {
+                quote: `Although the agricultural sector is globally a main emitter of greenhouse gases, thorough economic analysis of environmental and social externalities has not yet been conducted. [...] Using life-cycle assessment and meta-analytical approaches, we calculate the external climate costs of foodstuff. Results show that external greenhouse gas costs are highest for conventional and organic animal-based products (2.41€/kg product; 146% and 71% surcharge on producer price level), followed by conventional dairy products (0.24€/kg product; 91% surcharge) and lowest for organic plant-based products (0.02€/kg product; 6% surcharge). `
+            }
+        ]
     }
 ]
