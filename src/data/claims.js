@@ -788,5 +788,572 @@ export default [
                 quote: `Although the agricultural sector is globally a main emitter of greenhouse gases, thorough economic analysis of environmental and social externalities has not yet been conducted. [...] Using life-cycle assessment and meta-analytical approaches, we calculate the external climate costs of foodstuff. Results show that external greenhouse gas costs are highest for conventional and organic animal-based products (2.41€/kg product; 146% and 71% surcharge on producer price level), followed by conventional dairy products (0.24€/kg product; 91% surcharge) and lowest for organic plant-based products (0.02€/kg product; 6% surcharge). `
             }
         ]
+    },
+    {
+        id: 20,
+        clicked: false,
+        start: 397,
+        end: 406,
+        claim: `In the end it is pretty simple: eating less meat alone won’t stop climate change, but we also can’t stop climate change without eating less meat.`,
+        evidence: [
+            {
+                commentary: `As commented above, food is one of the biggest levers we have to cut back on emissions accounting for a quarter of the global GHG emissions. Given that more than half of food emissions come from animal-based products, continuing current production and consumption will cause increasingly aggravated emissions. `
+            },
+            {
+                commentary: `The following OWID chart demonstrates how much we could reduce by eliminating different levels of animal-based foods from our diets. Given that we need to reduce the emissions more than half of the current levels even in the least stringent carbon budget estimates, carrying on today’s food emissions to the next decades is not a realistic option. `
+            },
+            {
+                source: `OWID, What are the carbon opportunity costs of our food?, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/carbon-opportunity-costs-food`
+            },
+            {
+                quote: `/images/Carbon-savings-of-diets-Poore-and-Stehfest-–-bar-chart.png`
+            },
+            {
+                source: `Emissions from food alone could use up all of our budget for 1.5°C or 2°C – but we have a range of opportunities to avoid this, OWID, 2021`
+            },
+            {
+                link: `https://ourworldindata.org/food-emissions-carbon-budget`
+            },
+            {
+                commentary: `Following OWID chart shows food emissions in comparison to carbon budgets under different scenarios. For instance, if we were to emit in the next decades to the same degree we do currently, food emissions would take up almost all of our carbon budget for keeping the global temperature rise under 2 deg C. `
+            },
+            {
+                quote: `/images/Food-emissions-vs.-temp-limits.png`
+            }
+        ]
+    },
+    {
+        id: 21,
+        clicked: false,
+        start: 436,
+        end: 448,
+        claim: `In principle, this technology already exists: Direct Air Capture of CO2 draws carbon dioxide from the air so that it can be stored underground or transformed into products.`,
+        evidence: [
+            {
+                source: `IEA, Direct Air Capture, 2020`
+            },
+            {
+                link: `https://www.iea.org/reports/direct-air-capture`
+            },
+            {
+                quote: `Direct air capture is a technology to capture CO2 from the atmosphere. The CO2 can be permanently stored in deep geological formations or used in the production of fuels, chemicals, building materials and other products containing CO2. When CO2 is geologically stored, it is permanently removed from the atmosphere, resulting in negative emissions. There are currently 15 direct air capture plants operating worldwide, capturing more than 9 000 tCO2/year, with a 1 MtCO2/year capture plant in advanced development in the United States. In the SDS, direct air capture is scaled up to capture almost 10 MtCO2/year by 2030. This is within reach but will require several more large-scale demonstrations to refine the technology and reduce capture costs.`
+            },
+            {
+                commentary: `Most major reports on what we need to do to combat climate change rely on the use of carbon capture technology. There are many ways to accomplish this, but Direct Air Capture solves the problem of carbon emissions directly instead of simply reducing their release or compensating for emissions after they are released. Whether or not focusing on this solution is a good idea is up to debate, but it must be considered nonetheless.`
+            },
+            {
+                source: `The potential for CCS and CCU in Europe, European Gas Regulatory Forum, 2019`
+            },
+            {
+                link: `https://ec.europa.eu/info/sites/default/files/iogp_-_report_-_ccs_ccu.pdf `
+            },
+            {
+                quote: `Techniques to remove CO2 from the atmosphere are used in all 1.5°C pathways, with most scenarios favouring BECCS [Bioenergy with carbon capture and storage ]. The pathways generally rely on a significant scale-up of CCS [Carbon Capture and Storage] in gas-fired power and industry, and in combination with bioenergy for carbon removal.`
+            },
+            {
+                quote: `The Intergovernmental Panel on Climate Change Special Report on Global Warming of 1.5°C (SR1.5) showed the importance of limiting global warming to 1.5°C compared to pre-industrial levels. Techniques to remove CO2 from the atmosphere are used in all 1.5°C pathways, with most scenarios favouring BECCS. Figure 2 illustrates the amount of CCS used in the IPCC’s 1.5°C, 2°C and higher scenarios in terms of Gt CO2 captured and stored per year, including industrial, biogenic and fossil sources of CO2. One scenario uses 0 Gt CO2/yr, a few use a little, and most scenarios [...] use around 15Gt CO2/yr in 2100, independent of temperature pathway.`
+            },
+            {
+                quote: `/images/global-capture-storage.png`
+            },
+            {
+                source: `Global warming of 1.5°C, IPCC, 2019`
+            },
+            {
+                link: `https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf`
+            },
+            {
+                quote: `All pathways that limit global warming to 1.5°C with limited or no overshoot project the use of carbon dioxide removal (CDR) on the order of 100–1000 GtCO2 over the 21st century.`
+            }
+        ]
+    },
+    {
+        id: 22,
+        clicked: false,
+        start: 448,
+        end: 464,
+        claim: `So why aren’t we implementing it in every industry, everywhere? Because with the technology we have right now, this would cost some ten trillion dollars per year, or half the United States’ GDP. This money has to come from somewhere and currently no-one is offering it. `,
+        evidence: [
+            {
+                commentary: `We need to reduce carbon emissions by about 25 billion tons per year to avoid global temperatures rising by 2°C. Avoiding a 1.5°C increase would mean even harsher and more rapid cuts to emissions.`
+            },
+            {
+                source: `Global Energy Transformation, IRENA, 2018`
+            },
+            {
+                link: `https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2018/Apr/IRENA_Report_GET_2018.pdf `
+            },
+            {
+                quote: `/images/cumulative-energy-emissions.png`
+            },
+            {
+                commentary: `If we do not change our ways of producing energy or food, that decrease in emissions would have to come entirely from carbon capture technologies. However, it would cost between $250 and $600 per ton captured and stored. This gives a total of between $6.3 and $15 trillion per year. In comparison, the GDP of the USA was 18.14 trillion$ in 2018.`
+            },
+            {
+                source: `OWID, GDP, 2018`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/gdp-world-regions-stacked-area?country=~USA`
+            },
+            {
+                source: `Direct Air Capture: Resource Considerations and Costs for Carbon Removal, WRI, 2021`
+            },
+            {
+                link: `https://www.wri.org/insights/direct-air-capture-resource-considerations-and-costs-carbon-removal `
+            },
+            {
+                quote: `Despite the benefits and flexibility, direct air capture is more costly per tonne of CO2 captured compared to most mitigation approaches and most natural climate solutions. The range of costs for DAC vary between $250-$600 today depending on the technology choice, low-carbon energy source and the scale of their deployment. For context, most reforestation costs less than $50/tonne. Depending on the rate of deployment, which can accelerate through supportive policies and market development, costs for DAC could fall to around $150-$200 per tonne over the next 5-10 years.`
+            }
+        ]
+    },
+    {
+        id: 23,
+        clicked: false,
+        start: 464,
+        end: 477,
+        claim: `Just dumping these costs on massive polluters like steel mills and coal power stations would double the cost of their products – industries that operate on very tight profit margins would be bankrupted.`,
+        evidence: [
+            {
+                commentary: `Steel emits about 1.85 tons of CO2 for each 1 ton produced. If we take the cost of removing one ton of CO2 to be $250, which is a low-end estimate, then we would have to add an extra $460 to the price of steel as an environmental cost to deal with the CO2 it emits. Steel prices vary, but it is usually sold at around $500 per ton. This means an environmentally-conscious price of steel would rise by 92%.`
+            },
+            {
+                source: `Steel’s Contribution To A Low Carbon Future And Climate Resilient Societies, World Steel Association, 2020`
+            },
+            {
+                link: `https://www.worldsteel.org/en/dam/jcr:7ec64bc1-c51c-439b-84b8-94496686b8c6/Position_paper_climate_2020_vfinal.pdf`
+            },
+            {
+                quote: `The greenhouse gas of most relevance to the world steel industry is carbon dioxide (CO2). On average for 2018, 1.85 tonnes of CO2 were emitted for every tonne of steel produced. The steel industry generates between 7 and 9% of direct emissions from the global use of fossil fuel.`
+            },
+            {
+                source: `Direct Air Capture: Resource Considerations and Costs for Carbon Removal, WRI, 2021`
+            },
+            {
+                link: `https://www.wri.org/insights/direct-air-capture-resource-considerations-and-costs-carbon-removal `
+            },
+            {
+                quote: `Despite the benefits and flexibility, direct air capture is more costly per tonne of CO2 captured compared to most mitigation approaches and most natural climate solutions. The range of costs for DAC vary between $250-$600 today depending on the technology choice, low-carbon energy source and the scale of their deployment. For context, most reforestation costs less than $50/tonne. Depending on the rate of deployment, which can accelerate through supportive policies and market development, costs for DAC could fall to around $150-$200 per tonne over the next 5-10 years.`
+            },
+            {
+                source: `Steel (Europe) Price Outlook, Focus Economics, 2021`
+            },
+            {
+                link: `https://www.focus-economics.com/commodities/base-metals/steel-europe `
+            },
+            {
+                quote: `/images/steel-historical-price-chart.png`
+            },
+            {
+                commentary: `Producing electricity from coal-fired power stations involves the emission of 0.85 kg of CO2 per kWh. Using the same $250 per ton of CO2 removed figure, we find that the cost of removing 0.85 kg of CO2 to be $0.21. For comparison, 1 kWh of electricity is sold for $0.132 in the USA and $0.21 in Europe. Adding the carbon cost would increase electricity prices by 100% to 160%. `
+            },
+            {
+                commentary: `It is not possible for these industries to continue operating as they do today if they have to account for their carbon cost. Many would likely go bankrupt without special measures being taken, and opinions will differ on whether that is an unacceptable outcome or a necessary cut. `
+            },
+            {
+                source: `Carbon Footprint of Electricity Generation, Parliament Office of Science & Technology, 2011`
+            },
+            {
+                link: `https://www.parliament.uk/globalassets/documents/post/postpn_383-carbon-footprint-electricity-generation.pdf`
+            },
+            {
+                quote: `Within the range of international carbon footprint estimates shown on Figure 1, three studies give figures for existing UK plants of 786, 846 and 990 gCO2eq/kWh.`
+            },
+            {
+                quote: `/images/international-carbon-footprints-of-fossil-fuel-electricity.png`
+            },
+            {
+                source: `Electric Rates by State (May 2021), Electric Choice, 2021`
+            },
+            {
+                link: `https://www.electricchoice.com/electricity-prices-by-state/ `
+            },
+            {
+                quote: `The average electricity rate is 13.19 cents per kilowatt hour (kWh).`
+            },
+            {
+                source: `Electricity price statistics, EuroStat, 2021`
+            },
+            {
+                link: `https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics `
+            },
+            {
+                quote: `/images/electricity-prices-for-household-consumers.png`
+            }
+        ]
+    },
+    {
+        id: 24,
+        clicked: false,
+        start: 477,
+        end: 485,
+        claim: `Getting the government to pay for it seems logical but a lot of state resources are actually tied up doing the opposite, like subsidizing oil and gas. `,
+        evidence: [
+            {
+                source: `Global Fossil Fuel Subsidies Remain Large: An Update Based on Country-Level Estimates, David Coady et al., 2019`
+            },
+            {
+                link: `https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509`
+            },
+            {
+                quote: `Globally, subsidies remained large at $4.7 trillion (6.3 percent of global GDP) in 2015 and are projected at $5.2 trillion (6.5 percent of GDP) in 2017. The largest subsidizers in 2015 were China ($1.4 trillion), United States ($649 billion), Russia ($551 billion), European Union ($289 billion), and India ($209 billion). About three quarters of global subsidies are due to domestic factors—energy pricing reform thus remains largely in countries’ own national interest—while coal and petroleum together account for 85 percent of global subsidies.`
+            },
+            {
+                source: `IEA, Value of fossil-fuel subsidies by fuel in the top 25 countries, 2020`
+            },
+            {
+                link: `https://www.iea.org/topics/energy-subsidies`
+            },
+            {
+                quote: `In 2020, the fall in fossil fuel prices and energy use brought the value of fossil fuel consumption subsidies down to a record low – the estimate of just over USD 180 billion is some 40% down from 2019 levels. This is the lowest annual figure since we started tracking these subsidies in 2007. Almost all countries had lower estimated subsidies year-on-year; Iran remains the single largest provider of these subsidies, although the value of the implicit support to domestic consumers fell by more than USD 50 billion in 2020, due to low crude prices and weak economic conditions. One of the very few categories where our subsidy estimate grew year-on-year was oil products in China (notably for residential use), reflecting a relatively rapid recovery from the pandemic. Overall, the weighted-average subsidy rate was some 10% - meaning that consumers receiving these subsidies paid on average around 90% of the competitive market reference prices for the energy products concerned.`
+            },
+            {
+                quote: `/images/fossil-fuel-subsidies-top-25-countries.png`
+            }
+        ]
+    },
+    {
+        id: 25,
+        clicked: false,
+        start: 485,
+        end: 507,
+        claim: `Which seems counter intuitive but follows clear incentives. By artificially keeping fuel prices low, shipping and everyday goods are kept artificially cheap too. Which has a major social impact on billions of people around the world. That creates political lobbies and incentives that perpetuate this cycle that makes it so hard to cut off fossil fuel production. `,
+        evidence: [
+            {
+                commentary: `Even though lower fossil fuel prices reflect on the prices of the goods used day to day, subsidies could indirectly be causing lesser benefits in the systems level, benefiting producers more than the consumers. `
+            },
+            {
+                source: `IMF, Who Benefits from Fossil Fuel Subsidies`
+            },
+            {
+                link: `https://www.imf.org/en/Topics/climate-change/energy-subsidies#Who%20Benefits%20from%20Energy%20Subsidies`
+            },
+            {
+                quote: `Fossil fuel subsidies are an important policy issue for all countries. Not only do energy subsidies have negative economic and environmental effects, they also mainly benefit the wealthiest households. A number of studies have shown that energy subsidies are very badly targeted, further reinforcing existing income inequalities; for instance, a recent review finds that the richest 20 percent of households receive six times more in subsidies than the poorest 20 percent. However, energy subsidy reform can still have a significant adverse impact on the welfare of low-income households and mitigating this impact is a key component of any energy subsidy reform strategy. This calls for tools to assess the magnitude of the welfare impact with the view to inform the design of appropriate mitigating measures to protect the most vulnerable households.`
+            },
+            {
+                source: `Matthew J. Kotchen, The producer benefits of implicit fossil fuel subsidies in the United States, 2020.`
+            },
+            {
+                link: `https://environment.yale.edu/kotchen/pubs/FFsubsidies.pdf`
+            },
+            {
+                quote: `Along with greater recognition of explicit and implicit fossil fuel subsidies has come growing concern about their distributional consequences. Who benefits? Who bears the costs? And how might a better understanding of the distributional impacts affect the political economy and feasibility of proposed reforms? While existing studies have focused on distributional impacts of efficient pricing among households (22–27), questions about how distributional burdens are split between producers and consumers have gone unstudied. Indeed, as discussed previously, the existing literature on fossil fuel subsidies, which focuses primarily on environmental consequences and efficiency implications, sidesteps the issue completely by assuming perfectly elastic supply and therefore zero PI.`
+            },
+            {
+                commentary: `Following report revises some case studies on selected countries with different energy subsidy policies:`
+            },
+            {
+                source: `Gabriela Inchauste and David G. Victor, Editors, The Political Economy of Energy Subsidy Reform, World Bank Group, 2017`
+            },
+            {
+                link: `https://openknowledge.worldbank.org/bitstream/handle/10986/26216/9781464810077.pdf`
+            }
+        ]
+    },
+    {
+        id: 26,
+        clicked: false,
+        start: 507,
+        end: 517,
+        claim: `Meanwhile, very costly solutions for a far-off problem like carbon capture seem like they can wait, as technically nobody benefits from it right now.`,
+        evidence: [
+            {
+                source: `IEA, Is carbon capture too expensive?, 2021`
+            },
+            {
+                link: `https://www.iea.org/commentaries/is-carbon-capture-too-expensive`
+            },
+            {
+                quote: `Carbon capture, utilisation and storage (CCUS) technologies are critical for putting energy systems around the world on a sustainable path. Despite the importance of CCUS for achieving clean energy transitions, deployment has been slow to take off – there are only around 20 commercial CCUS operations worldwide. But momentum is building. Plans for more than 30 commercial CCUS facilities have been announced in recent years, and despite the Covid‑19 crisis, in 2020 governments and industry committed more than USD 4.5 billion to CCUS. A number of factors can explain the slow uptake of CCUS, but high cost is one of the most frequently heard. Commentators often cite CCUS as being too expensive and unable to compete with wind and solar electricity given their spectacular fall in costs over the last decade, while climate policies – including carbon pricing – are not yet strong enough to make CCUS economically attractive`
+            }
+        ]
+    },
+    {
+        id: 27,
+        clicked: false,
+        start: 517,
+        end: 543,
+        claim: `Some argue that a move away  from capitalism is the only solution to this mess, others insist that markets should be even freer, without any interventions like subsidies and some suggest that we need what’s referred to as “degrowth” and to cut back as a species overall. But the truth is at least as of now, no political system is doing an impressive job at becoming truly sustainable and none have really done so in the past. `,
+        evidence: [
+            {
+                commentary: `We are aware that this is a very sensitive topic and people naturally have different opinions on how to deal with climate change. We tried to provide some context for some proposed solutions. This overview does not claim to be exhaustive however.`
+            },
+            {
+                commentary: `There are ‘market-based approaches’ that add a carbon cost to consumer products and hope that companies will be incentivized to reduce those costs, which helps the climate. `
+            },
+            {
+                source: `Market-Based Strategies, C2ES, 2019`
+            },
+            {
+                link: `https://www.c2es.org/content/market-based-strategies/ `
+            },
+            {
+                quote: `Market-based strategies help fight climate change by putting an explicit price on carbon emissions and spurring businesses to find cost-effective ways to reduce those emissions. The costs of climate impacts – such as higher sea levels and more frequent and severe heat waves, droughts, wildfires, and downpours – are not reflected in the price of goods and services that emit greenhouse gases. Putting a price on those emissions gives businesses an incentive to reduce them. By giving them flexibility to choose the most economical way to reduce emissions, rather than mandating one approach, pricing also encourages businesses to innovate.`
+            },
+            {
+                commentary: `On the other hand, there are calls to nationalize certain industries to enforce climate priorities.`
+            },
+            {
+                source: `Nationalize the Fossil Fuel Industry, In These Times, 2017`
+            },
+            {
+                link: `https://inthesetimes.com/article/nationalize-the-fossil-fuels-industry-carbon `
+            },
+            {
+                quote: `How do we break this vicious cycle of inevitable extraction in time? We need systemic solutions that address this dynamic of profit and control head-on and rapidly phase out fossil fuel production. Some people are willing to take the chance that such production will become unfashionable or even unprofitable as the costs of renewables continues to drop. But the most direct and only guaranteed way to do so is to change the rules of the game by taking control of U.S. fossil fuel reserves out of corporate hands through nationalization.`
+            },
+            {
+                commentary: `A completely different path is advocated by ‘degrowth’ groups. They argue that we cannot both continue to consume more resources and also protect our planet from environmental damage; the solution is instead to limit and even reverse our growth. `
+            },
+            {
+                source: `Growth damages the climate. We need new paths to prosperity, Degrowth, 2020`
+            },
+            {
+                link: `https://www.degrowth.info/en/2020/04/growth-damages-the-climate-we-need-new-paths-to-prosperity/ `
+            },
+            {
+                quote: `The dream of green growth thus continues to be a fairy tale. And even if we assume that more growth will be possible without any further emissions, the problem is far from being solved. After all, the target of limiting global warming to 1,5°C is not about keeping emissions constant, but about reducing them to net-zero by 2050. According to the latest IPCC report, today’s technologies can only achieve this if we significantly reduce the overall production and consumption of the economy. Climate policy that effectively reduces emissions is therefore automatically in conflict with the goal of growth. Or to put it the other way around: climate policy that doesn’t confront economic growth will most likely not be effective.`
+            }
+        ]
+    },
+    {
+        id: 28,
+        clicked: false,
+        start: 543,
+        end: 567,
+        claim: `We also don’t have the time to figure this out and do a lot of experiments. We must implement solutions now. Not just to halt the release of all possible greenhouse gases, but also to start reducing the amount of CO2 in the air. It’s too late to just mend our ways, we have to actively correct our past mistakes. With every year we waste, more extreme changes will be unavoidable.  `,
+        evidence: [
+            {
+                commentary: `An effort to more precisely estimate the remaining ‘carbon budget’ available to us before certain temperature increases are locked in, finds that we do not have many years to implement emissions-reducing strategies.`
+            },
+            {
+                commentary: `We could emit another 440 billion tons of CO2 before global average temperatures increase by 1.5°C. For comparison, we are currently emitting over 40 billion tons of CO2 per year. `
+            },
+            {
+                source: `An integrated approach to quantifying uncertainties in the remaining carbon budget, H. Damon Matthews et al., 2021`
+            },
+            {
+                link: `https://www.nature.com/articles/s43247-020-00064-9`
+            },
+            {
+                quote: `We estimate a median TCRE [Transient Climate Response to Cumulative CO2 Emissions] of 0.44 °C and 5–95% range of 0.32–0.62 °C per 1000 GtCO2 emitted. Considering only geophysical uncertainties, our median estimate of the 1.5 °C remaining carbon budget is 440 GtCO2 from 2020 onwards, with a range of 230–670 GtCO2, (for a 67–33% chance of not exceeding the target). Additional socioeconomic uncertainty related to human decisions regarding future non-CO2 emissions scenarios can further shift the median 1.5 °C remaining carbon budget by ±170 GtCO2.`
+            }
+        ]
+    },
+    {
+        id: 29,
+        clicked: false,
+        start: 618,
+        end: 631,
+        claim: `The quickest way to cut CO2 emissions would be if all rich populations on Earth drastically changed their lifestyles and if the people on the rise would not seek to achieve it. Favouring the climate over comfort and wealth. `,
+        evidence: [
+            {
+                commentary: `Even within a prosperous and polluting country like the United States, differences in household income reveal a massive gap in the amounts of CO2 released. It means that the reduction in CO2 emissions must come from the wealthiest households.`
+            },
+            {
+                source: `Scale, distribution and variations of global greenhouse gas emissions driven by U.S. households, Kaihui Song et al., 2019`
+            },
+            {
+                link: `https://www.sciencedirect.com/science/article/pii/S0160412019315752?via%3Dihub   `
+            },
+            {
+                quote: `The per capita carbon footprint also generally increases with household income, ranging from 12.1 to 28.6 tCO2eq/cap, as shown in Fig. 3b. Consumers with less than $30,000 annual household income consists of 25.7% of the total population but were only responsible for 19.3% of the carbon footprint. On the other hand, wealthy consumers with more than $100,000 annual household income accounted for 22.3% of the total population but were responsible for 31.2% of the total carbon footprint of the U.S. household consumption. As income increases, the share of carbon footprint from “consumption” of services increases.`
+            },
+            {
+                quote: `/images/per-capita-footprint-income.png`
+            }
+        ]
+    },
+    {
+        id: 30,
+        clicked: false,
+        start: 634,
+        end: 647,
+        claim: `But we’ve just witnessed a global experiment in staying at home, not using transport and consuming less during the coronavirus pandemic. And all it did was reduce CO2 emissions by 7% for 2020. `,
+        evidence: [
+            {
+                commentary: `Lockdowns around the world, coupled with economic downturns, meant that people reduced their carbon emissions. They took less transports, bought less products and didn’t use commercial spaces like office buildings. At the peak of lockdowns in April 2020, we were releasing 19% less CO2 than the previous year. However, the 2020 average reduction in CO2 emissions was only 7% less. `
+            },
+            {
+                source: `Fossil CO2 emissions in the post-COVID-19 era, Corinne Le Quéré et al., 2021`
+            },
+            {
+                link: `https://www.nature.com/articles/s41558-021-01001-0`
+            },
+            {
+                quote: `Global fossil CO2 emissions have decreased by around 2.6 GtCO2 in 2020 to 34 GtCO2 (Fig. 1). This projected decrease, caused largely by the measures implemented to slow the spread of the COVID-19 pandemic, is about 7% below 2019 levels, according to the analysis of the Global Carbon Project1 on the basis of multiple studie and recent monthly energy data`
+            },
+            {
+                quote: `/images/global-fossil-fuel-emissions.png`
+            },
+            {
+                commentary: `The chart in the video is based on:`
+            },
+            {
+                source: `COVID curbed carbon emissions in 2020 — but not by much, Nature, 2021`
+            },
+            {
+                link: `https://www.nature.com/articles/d41586-021-00090-3`
+            },
+            {
+                quote: `/images/emissions-bounce-back.png`
+            }
+        ]
+    },
+    {
+        id: 31,
+        clicked: false,
+        start: 647,
+        end: 677,
+        claim: `Asking average people to solve rapid climate change breaks down when we look at the scale of the problem. Personal contributions toward reducing greenhouse gas emissions are nice, but they are dwarfed by the systemic reality of global emissions. The concept of your personal carbon footprint was popularized by the oil producer BP in a 2005 ad campaign. Arguably one of the most effective and sinister pieces of propaganda that still seriously distracts all of us from the reality of the situation.`,
+        evidence: [
+            {
+                commentary: `The concept of a personal carbon footprint is not false, and it does have its part to pay in combating climate change. However, using it to absolve the biggest polluters of their responsibility is wrong.`
+            },
+            {
+                source: `The carbon footprint sham, Mashable, retrieved 2021`
+            },
+            {
+                link: `https://mashable.com/feature/carbon-footprint-pr-campaign-sham/?europe=true`
+            },
+            {
+                quote: `British Petroleum, the second largest non-state owned oil company in the world, with 18,700 gas and service stations worldwide, hired the public relations professionals Ogilvy & Mather to promote the slant that climate change is not the fault of an oil giant, but that of individuals. It’s here that British Petroleum, or BP, first promoted and soon successfully popularized the term “carbon footprint" in the early aughts. The company unveiled its “carbon footprint calculator” in 2004 so one could assess how their normal daily life — going to work, buying food, and (gasp) traveling — is largely responsible for heating the globe.`
+            }
+        ]
+    },
+    {
+        id: 32,
+        clicked: false,
+        start: 677,
+        end: 691,
+        claim: `If you eliminated 100% of your emissions for the rest of your life, you would save one second’s worth of emissions from the global energy sector. Even the most motivated person can’t even make a tiny dent.`,
+        evidence: [
+            {
+                commentary: `The global average of per capita CO2 emissions was around 5 tons in 2017. This would add up to 360 tons over a 72 year lifetime based on global life expectancy average. This value however differs greatly from country to country. For example, the average citizen of the United States emitted around 16.2 tons of CO2 in 2017. If the same was to sustain for an average life expectancy of ~79 years of their life, they would release about 1280 tons of CO2. `
+            },
+            {
+                source: `Per capita CO2 emissions, OWID, retrieved 2021`
+            },
+            {
+                link: `https://ourworldindata.org/co2-emissions#per-capita-co2-emissions `
+            },
+            {
+                quote: `/images/per-capita-emissions-2019.png`
+            },
+            {
+                commentary: `Life expectancy info is from the following chart: `
+            },
+            {
+                source: `OWID, 2020`
+            },
+            {
+                link: `https://ourworldindata.org/grapher/life-expectancy-at-birth-total-years?tab=chart&country=OWID_WRL~USA~JPN`
+            },
+            {
+                commentary: `Meanwhile, the global energy sector releases 73.2% of all global greenhouse emissions, which is 36 billion tons of CO2 per year. That’s 98.63 million tons per day, 4.11 million tons per hour or 1141 tons per second. If the average US citizen dedicated their entire life to erasing their own carbon footprint, they would compensate for roughly 1.12 seconds’ worth of the emissions of the energy sector. `
+            },
+            {
+                source: `Sector by sector: where do global greenhouse gas emissions come from?, OWID, retrieved 2021`
+            },
+            {
+                link: `https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from `
+            },
+            {
+                quote: `/images/Emissions-by-sector-–-pie-charts.png`
+            }
+        ]
+    },
+    {
+        id: 33,
+        clicked: false,
+        start: 822,
+        end: 856,
+        claim: `It's still unrealistic that change of that scope can be forced onto a worldwide economy quickly enough, because many low carbon technologies still need a lot of time and research – which means they are expensive. But more companies will make more efficient carbon capture systems, tasty meat alternatives, better batteries, cement alternatives and so on, if there is a clear and growing demand. And if you are affluent enough, you can do your part by investing in these things right now while they're still expensive. These are the mechanisms that will drive the prices down later on.  `,
+        evidence: [
+            {
+                commentary: `Technological progress is an important part of dealing with greenhouse gas emissions. `
+            },
+            {
+                commentary: `There are new meat alternatives, such as lab grown or cultured meat, that cost 6 to 12 times less CO2 to produce than raising a cow. `
+            },
+            {
+                source: `Climate Impacts of Cultured Meat and Beef Cattle, John Lynch and Raymond Pierrehumbert, 2019`
+            },
+            {
+                link: `https://www.frontiersin.org/articles/10.3389/fsufs.2019.00005/full`
+            },
+            {
+                quote: `/images/cultured-meat-beef-cattle.png`
+            },
+            {
+                commentary: `The falling cost of renewable energy has been dropping rapidly and is now competitive even with the cheapest fossil fuel power sources.`
+            },
+            {
+                source: `Renewable Power Generation Costs in 2019, IRENA, 2020`
+            },
+            {
+                link: `https://www.irena.org/publications/2020/Jun/Renewable-Power-Costs-in-2019`
+            },
+            {
+                quote: `/images/average-costs-electricity.png`
+            },
+            {
+                commentary: `There is even a new sort of ‘green cement’ that promises to absorb CO2 during its production rather than release it.`
+            },
+            {
+                source: `New Developments: Environmentally Friendly Concrete, Sustainable Build, 2021`
+            },
+            {
+                link: `http://www.sustainablebuild.co.uk/environmentally-friendly-concrete.html`
+            },
+            {
+                quote: `Scientists at a British concrete manufacturer, the London-based Novacem, claim to have developed a new form of concrete that effectively absorbs large amounts of carbon dioxide as it hardens. Novacem's new version of concrete, uses a different raw material, magnesium sulphate, which requires much less heating. Novacem claim that each tonne of cement can absorb up to 0.6 tonnes of CO2. This is opposed to figures that claim that each tonne of old style cement emits about 0.4 tonnes of CO2.`
+            },
+            {
+                commentary: `There are many other low-carbon technologies in which a lot of funding and research is flowing in. One example is green hydrogen. Germany for example allocated its largest share of green energy stimulus funds to it last year. Hydrogen can replace current high-carbon in many areas as fuel. It could be able to meet a big chunk of industrial energy demand, used in hydrogen-powered transport or as an energy storage medium that allows for renewable energy to be stored in a supply-based and flexible manner or hydrogen produced with green electricity might be used for heating homes. `
+            },
+            {
+                source: `Jim Robbins, Green Hydrogen: Could It Be Key to a Carbon-Free Economy?, 2020`
+            },
+            {
+                link: `https://e360.yale.edu/features/green-hydrogen-could-it-be-key-to-a-carbon-free-economy`
+            },
+            {
+                quote: `In Australia, the University of New South Wales, in partnership with a global engineering firm, GHD, has created a home-based system called LAVO that uses solar energy to generate and store green hydrogen in home systems. The hydrogen is converted back into electricity as needed.`
+            },
+            {
+                source: `The National Hydrogen Strategy, Federal Ministry for Economic Affairs and Energy, 2020`
+            },
+            {
+                link: `https://www.bmz.de/en/development-policy/green-hydrogen`
+            },
+            {
+                quote: `In order to seize this opportunity for industry and put Germany at the vanguard of green hydrogen, the German government has published a National Hydrogen Strategy(External link) (PDF) and an action plan. The purpose of the strategy is to foster the production of affordable climate-neutral hydrogen and to make Germany a global provider of state-of-the-art hydrogen technology. Pilot projects for the production of green hydrogen are to be implemented in the BMZ's partner countries.`
+            },
+            {
+                commentary: `High-quality recycle-materials that could replace oil-based plastic production. `
+            },
+            {
+                source: `European Commission Joint Research Centre, Heat and power from biomass, Technology development report 2020`
+            },
+            {
+                link: `https://op.europa.eu/en/publication-detail/-/publication/8f6c8de2-6505-11eb-aeb5-01aa75ed71a1/language-en`
+            },
+            {
+                quote: `The European Commission presented the ‘European Green Deal’ in December 2019 to make EU a climate-neutral economy by 2050 (COM(2019) 640). In order to move to a clean, circular economy and stop climate change, the EU Green Deal provides a roadmap with actions to boost the efficient use of resources. Bioenergy, as part of a circular bioeconomy, could have an essential contribution to reach climate neutrality by 2050, enabling higher shares of renewables in the energy grids through high efficiency heat and power generation and enabling negative emissions through carbon capture, utilisation and storage. Besides contributing to greenhouse gas reduction, bioenergy brings additional social, environmental and economic benefits to agriculture, forestry and other industrial sectors, driving rural development, in the context of sustainable development.`
+            },
+            {
+                source: `Ocean energy Europe, 2021`
+            },
+            {
+                link: `https://www.oceanenergy-europe.eu/`
+            },
+            {
+                quote: `The oceans are the world’s largest untapped source of renewable energy. By 2050, ocean energy can provide 10% of Europe’s current electricity needs and 400,000 jobs, and is all set to become a new European industry. Ocean energy technologies exploit the power of tides and waves, as well as differences in sea temperatures and salinity, to produce electricity. The primary types of ocean energy are: Tidal Stream, Wave Energy, OTEC &SWAC and Tidal Range`
+            }
+        ]
     }
 ]
